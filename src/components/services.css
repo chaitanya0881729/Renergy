@@ -1,0 +1,167 @@
+.services-container{
+    width: 100%;
+    padding: 120px 0px;
+
+
+  
+}
+
+
+
+.sb1-text{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 10px auto;
+    text-align: center;
+    padding: 4rem 4rem;
+}
+
+.sb1-text .p2{
+    font-size: 20px;
+    color: #7A7A7A;
+    line-height: 30px;
+    margin-top:18px;
+
+    
+}
+
+.sb1-text .p1{
+    color: #0D73FC;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.sb1-text h1{
+    font-size: 40px;
+    color: #0D73FC;
+    line-height: 50px;
+    margin: 13px 0 0 0;
+    font-weight: bold;
+}
+
+.sb1-text span{
+    color: #333333;
+}
+
+
+.line{
+    border: 1px solid #E7E6E6;
+    width: 38%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+
+.sb2{
+    width: 100%;
+    margin: auto auto 40px auto;
+}
+
+
+.card-services1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .csb {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 4rem;
+  }
+  
+  .csb img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .csb-text {
+    margin-top: 15px;
+
+  }
+
+  .csb-text p{
+    margin: 1rem 0rem;
+    color: #7A7A7A;
+    font-size: 1.2rem;
+    
+  }
+
+  .csb-text h1{
+    margin: 1rem  0rem;
+    font-weight: bold;
+
+  }
+
+
+  
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 2px solid #000; 
+    color: #000;
+    margin: 2rem 0rem;
+    
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .csb {
+      width: 100%; 
+    }
+  }
+  
+
+
+@media screen and (max-width: 425px) {
+    .sb1-text .p1{
+        font-size: 12px;
+        line-height: 0px;
+        
+    }
+
+    .sb1{
+        width: 100%;
+        padding: 0px 0px;
+    
+    
+      
+    }
+
+    .sb1-text .p2{
+        font-size: 12px;
+        margin-top: 0px;
+        line-height: 14px;
+    }
+
+    .sb1-text h1{
+        font-size: 25px;
+        line-height: 10px;
+        padding: 1rem 0rem;
+        margin:  5px 0px 0px;
+    }
+
+    .sb1-text{
+        width: 100%;
+        margin: 0 auto 20px auto;
+        text-align: start;
+        padding: 0rem 1rem;
+    }
+
+
+    .line{
+        width: 89%;
+        margin: 0 auto;
+        
+    }
+}

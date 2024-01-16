@@ -1,0 +1,35 @@
+/* brand.css */
+
+.container {
+    width: 100%;
+  }
+  
+  .bicon-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .client_avatar img {
+    width: 100%; /* Make the image responsive within its container */
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for screens larger than 762px */
+  @media (min-width: 762px) {
+    .container {
+      /* Adjust styles for larger screens */
+      max-width: 762px; /* Adjust the maximum width as needed */
+      margin: 0 auto; /* Center the container on larger screens */
+    }
+  }
+  
+  /* Media query for screens larger than 425px */
+  @media (min-width: 425px) {
+    .container {
+      /* Adjust styles for screens between 425px and 762px */
+      max-width: 425px; /* Adjust the maximum width as needed */
+      margin: 0 auto; /* Center the container on screens between 425px and 762px */
+    }
+  }
+  
